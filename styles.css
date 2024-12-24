@@ -3,12 +3,12 @@
 	margin:20px;
 }
 #container::before{
-	content:"Before Element ";
-	color:#f00;
-	font-size:20px;
+	content:"Before Element";
 }
 #container::after{
-	content:" After Element";
+	content:"After Element";
+}
+#container::before, #container::after{
 	color:#f00;
 	font-size:20px;
 }
